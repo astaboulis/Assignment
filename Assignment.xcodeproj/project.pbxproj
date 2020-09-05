@@ -10,6 +10,7 @@
 		D0A592A4F98694F0130E6801 /* Pods_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285F6A05AB760CB3C7B799AF /* Pods_AssignmentTests.framework */; };
 		D61534652502FCD7007AFD35 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61534642502FCD7007AFD35 /* DetailsPage.swift */; };
 		D61534682502FF92007AFD35 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = D61534672502FF92007AFD35 /* SQLite */; };
+		D61B4C4F2503F8F900578A6A /* topstories.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = D61B4C4E2503F8F900578A6A /* topstories.sqlite3 */; };
 		D659C87825019923006FE7B0 /* TopStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659C87725019923006FE7B0 /* TopStories.swift */; };
 		D65BAE632502219D00B0A54B /* ToastAlerts in Frameworks */ = {isa = PBXBuildFile; productRef = D65BAE622502219D00B0A54B /* ToastAlerts */; };
 		D65BAE6925022A1800B0A54B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BAE6825022A1800B0A54B /* DBManager.swift */; };
@@ -61,9 +62,9 @@
 		B5B5A1331F2F6E82E4ED9E32 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		D61534642502FCD7007AFD35 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 		D61A335752A2D46395C9A699 /* Pods-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-AssignmentTests/Pods-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		D61B4C4E2503F8F900578A6A /* topstories.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = topstories.sqlite3; sourceTree = "<group>"; };
 		D659C87725019923006FE7B0 /* TopStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStories.swift; sourceTree = "<group>"; };
 		D65BAE6825022A1800B0A54B /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
-		D65BAE6A25022B8C00B0A54B /* topstories.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = topstories.sqlite3; sourceTree = "<group>"; };
 		D65BBBE02502E6B200224833 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		D65BBBE12502E6B200224833 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D65C22D12500474500C632BB /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +146,7 @@
 		D65C22C82500474500C632BB = {
 			isa = PBXGroup;
 			children = (
-				D65BAE6A25022B8C00B0A54B /* topstories.sqlite3 */,
+				D61B4C4E2503F8F900578A6A /* topstories.sqlite3 */,
 				D65C22D32500474500C632BB /* Assignment */,
 				D65C22EC2500474700C632BB /* AssignmentTests */,
 				D65C22F72500474700C632BB /* AssignmentUITests */,
@@ -382,6 +383,7 @@
 				D65C22E32500474700C632BB /* LaunchScreen.storyboard in Resources */,
 				D65C22E02500474700C632BB /* Assets.xcassets in Resources */,
 				D65C22DE2500474500C632BB /* Main.storyboard in Resources */,
+				D61B4C4F2503F8F900578A6A /* topstories.sqlite3 in Resources */,
 				D65C42DD25011A5600410DED /* TopStoriesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,7 +23,7 @@ class BookmarkTableViewController: UITableViewController {
     // MARK: - Table view data source
     override func viewWillAppear(_ animated: Bool) {
         self.navigationItem.title = "Bookmarks"
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "ReLoad List", style: .done, target: self, action: #selector(reloadData))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Load List", style: .done, target: self, action: #selector(reloadData))
         setupView()
         
     }

@@ -19,10 +19,8 @@ class DBManager:DBManagerDelegate{
     private init(){}
     func getDB() -> Connection{
         do{
-            let destination = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, false)
-            let destinationUser = NSSearchPathForDirectoriesInDomains(.userDirectory, .localDomainMask, false)
-            let path = destinationUser[0] + "/angelosstaboulis" + destination[0].dropFirst(1) + "/" + "Assignment" + "/" + "topstories.sqlite3"
-            connection = try Connection(path)
+            let path =  Bundle.main.path(forResource: "topstories", ofType: "sqlite3")
+            connection = try Connection(path!)
         }
         catch{
             debugPrint("database error")
